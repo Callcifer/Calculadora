@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./calculadora.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+                <div class="card w-100 p-3" style="height: 35rem;">
+
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col">
+                                <h2 id="resultado" class="bg-dark text-danger p-4" >care chimba </h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                    <div class="btn-group btn-group-lg w-100 "style="height:5rem;" role="group" aria-label="First group">
+                                        <button type="button" class="btn btn-danger" onclick="inicio()">c</button>
+                                        <button type="button" class="btn btn-danger" onclick="nose()">+/-</button>
+                                        <button type="button" class="btn btn-danger" onclick="dividir()">/</button>
+                                        <button type="button" class="btn btn-danger" onclick="multiplicar()">*</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                    <div class="btn-group btn-group-lg w-100"style="height:5rem;"role="group" aria-label="First group">
+                                        <button type="button" class="btn btn-dark" onclick="esteesminumero(7)">7</button>
+                                        <button type="button" class="btn btn-dark" onclick="esteesminumero(8)">8</button>
+                                        <button type="button" class="btn btn-dark" onclick="esteesminumero(9)">9</button>
+                                        <button type="button" class="btn btn-danger fs-2" onclick="resta()">-</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                    <div class="btn-group btn-group-lg w-100"style="height:5rem;" role="group" aria-label="First group">
+                                        <button type="button" class="btn btn-dark" onclick="esteesminumero(4)">4</button>
+                                        <button type="button" class="btn btn-dark" onclick="esteesminumero(5)">5</button>
+                                        <button type="button" class="btn btn-dark" onclick="esteesminumero(6)">6</button>
+                                        <button type="button" class="btn btn-danger"onclick="suma()">+</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                    <div class="btn-group btn-group-lg w-100"style="height:5rem;" role="group" aria-label="First group">
+                                        <button type="button" class="btn btn-dark" onclick="esteesminumero(1)">1</button>
+                                        <button type="button" class="btn btn-dark" onclick="esteesminumero(2)">2</button>
+                                        <button type="button" class="btn btn-dark" onclick="esteesminumero(3)">3</button>
+                                        <button type="button" class="btn btn-danger" onclick="igual()">=</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                    <div class="btn-group btn-group-lg w-100"style="height:5rem;" role="group" aria-label="First group">
+                                        <button type="button" class="btn btn-dark">0</button>
+                                        <button type="button" class="btn btn-dark">.</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="./calculadora.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
